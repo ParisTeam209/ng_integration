@@ -21,12 +21,33 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.css",
+              "src/ng1/app.css",
+              "src/ng1/app.animations.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/angular/angular.js",
+              "node_modules/angular-animate/angular-animate.js",
+              "node_modules/angular-resource/angular-resource.js",
+              "node_modules/angular-route/angular-route.js",
+              "src/ng1/app.module.js",
+              "src/ng1/app.config.js",
+              "src/ng1/app.animations.js",
+              "src/ng1/core/core.module.js",
+              "src/ng1/core/checkmark/checkmark.filter.js",
+              "src/ng1/core/phone/phone.module.js",
+              "src/ng1/core/phone/phone.service.js",
+              "src/ng1/phone-list/phone-list.module.js",
+              "src/ng1/phone-list/phone-list.component.js",
+              "src/ng1/phone-detail/phone-detail.module.js",
+              "src/ng1/phone-detail/phone-detail.component.js"
+            ]
           },
           "configurations": {
             "production": {
